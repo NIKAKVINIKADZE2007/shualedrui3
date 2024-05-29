@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="logo">Weather</p>
+      <ul class="header-ul">
+        <li class="li-item">home</li>
+        <li class="li-item">catalogue</li>
+        <li>about us</li>
+      </ul>
+    </header>
+    <h1 class="site-name">Weather API</h1>
+    <section>
+      <main>
+        <div class="container">
+          <div class="container-div-1">
+            <div class="div-1-inner-div">
+              <img src="./assets/Frame.svg" alt="map" />
+              <ul class="div1-ul">
+                <li>Latitude : <span id="latitude"></span></li>
+                <li>Longitude: <span id="longitude"></span></li>
+              </ul>
+            </div>
+            <img id="dayornight" src="" alt="day-or-night-logo" />
+          </div>
+          <div class="container-div-2">
+            <img id="temperature-icon" src="" alt="temprature-icon" />
+            <p id="temperature"></p>
+          </div>
+          <div class="container-div-3">
+            <div class="innerdiv1-div3">
+              <img src="./assets/°F.svg" alt="ferenhite" />
+              <p id="ferenhiet" class="ferenhiet"></p>
+            </div>
+            <div class="innerdiv-3">
+              <img src="./assets/noun-wind-4507827 1.svg" alt="" />
+              <p id="windspeed"></p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="foooter">
+        <button class="footer-button"><</button>
+        <button class="footer-button">1</button>
+        <button class="footer-button">2</button>
+        <button class="footer-button">3</button>
+        <button class="footer-button">...</button>
+        <button class="footer-button">10</button>
+        <button class="footer-button">></button>
+      </footer>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
